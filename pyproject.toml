@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hw-my-v2"
+version = "0.1.0"
+description = ""
+authors = ["Andrii-Oliinyk-2726 <123332365+Andrii-Oliinyk-2726@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "hw_my_v2"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^2.0.15"
+faker = "^18.9.0"
+alembic = "^1.11.1"
+psycopg2 = "^2.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
